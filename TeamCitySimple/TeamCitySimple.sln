@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCitySimple", "TeamCityS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCitySimpleTests", "..\TeamCitySimpleTests\TeamCitySimpleTests.csproj", "{DF22D4F3-5FD9-4040-ABD8-4D5559492FD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityServices", "..\TeamCityServices\TeamCityServices.csproj", "{A1E0CF48-0362-44DA-A114-A8FE1642E8CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCity.Core", "TeamCity.Core\TeamCity.Core.csproj", "{7DFE83D2-F283-42D2-A3FF-A5B5FE2B2012}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{DF22D4F3-5FD9-4040-ABD8-4D5559492FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF22D4F3-5FD9-4040-ABD8-4D5559492FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF22D4F3-5FD9-4040-ABD8-4D5559492FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E0CF48-0362-44DA-A114-A8FE1642E8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E0CF48-0362-44DA-A114-A8FE1642E8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E0CF48-0362-44DA-A114-A8FE1642E8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E0CF48-0362-44DA-A114-A8FE1642E8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DFE83D2-F283-42D2-A3FF-A5B5FE2B2012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFE83D2-F283-42D2-A3FF-A5B5FE2B2012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFE83D2-F283-42D2-A3FF-A5B5FE2B2012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFE83D2-F283-42D2-A3FF-A5B5FE2B2012}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
