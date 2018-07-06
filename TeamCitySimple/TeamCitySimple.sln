@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCitySimple", "TeamCitySimple.csproj", "{8F44647D-DD07-47D7-89FA-2A318155CCEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCitySimpleTests", "..\TeamCitySimpleTests\TeamCitySimpleTests.csproj", "{DF22D4F3-5FD9-4040-ABD8-4D5559492FD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8F44647D-DD07-47D7-89FA-2A318155CCEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F44647D-DD07-47D7-89FA-2A318155CCEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F44647D-DD07-47D7-89FA-2A318155CCEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF22D4F3-5FD9-4040-ABD8-4D5559492FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF22D4F3-5FD9-4040-ABD8-4D5559492FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF22D4F3-5FD9-4040-ABD8-4D5559492FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF22D4F3-5FD9-4040-ABD8-4D5559492FD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
