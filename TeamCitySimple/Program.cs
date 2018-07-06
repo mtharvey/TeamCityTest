@@ -12,7 +12,7 @@ namespace TeamCitySimple
         {
             User harvey = new User { Username = "@realHarvey", FirstName = "Mike", LastName = "Harvey" };
             Console.WriteLine(MessageMaker.GetMessage());
-            System.Threading.Thread.Sleep(1500);
+            System.Threading.Thread.Sleep(2000);
         }
     }
 }
