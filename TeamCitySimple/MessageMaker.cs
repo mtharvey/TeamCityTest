@@ -21,6 +21,8 @@ namespace TeamCitySimple
                 return "Hey, dipshit!";
             else if (currentSecond < 50)
                 return "Hello world.";
+            else if (currentSecond < 55)
+                return "Stank";
             else
                 return "Shibby";
         }
