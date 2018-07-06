@@ -8,7 +8,7 @@ namespace TeamCity.Core
 {
     public interface IAnimal
     {
-        string AnimalType { get; set; }
+        string AnimalType { get; }
         string Name{ get; set; }
         string Talk();
     }

@@ -8,6 +8,14 @@ namespace TeamCity.Core
 {
     public class Cat : Animal
     {
+        public override string AnimalType
+        {
+            get
+            {
+                return "Cat"; 
+            }
+        }
+
         public override string Talk()
         {
             return "Meow";

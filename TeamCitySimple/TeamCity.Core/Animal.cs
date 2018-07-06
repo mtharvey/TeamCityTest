@@ -8,8 +8,8 @@ namespace TeamCity.Core
 {
     public abstract class Animal : IAnimal
     {
-        public string AnimalType { get; set; }
         public string Name{ get; set; }
+        public abstract string AnimalType { get; }
         public abstract string Talk();
         
     }

@@ -51,6 +51,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TeamCityServices\TeamCityServices.csproj">
+      <Project>{a1e0cf48-0362-44da-a114-a8fe1642e8ce}</Project>
+      <Name>TeamCityServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="TeamCity.Core\TeamCity.Core.csproj">
+      <Project>{7dfe83d2-f283-42d2-a3ff-a5b5fe2b2012}</Project>
+      <Name>TeamCity.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

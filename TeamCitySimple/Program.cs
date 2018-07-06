@@ -12,6 +12,13 @@ namespace TeamCitySimple
         {
             User harvey = new User { Username = "@realHarvey", FirstName = "Mike", LastName = "Harvey" };
             Console.WriteLine(MessageMaker.GetMessage());
+            Console.WriteLine("---------------------");
+            Console.WriteLine();
+
+            var service = new TeamCityServices.AnimalService();
+            service.GetAnimals().ToList().ForEach(animal => { Console.WriteLine($"There is a {animal.AnimalType} name {animal.Name}"); });
+
+
             System.Threading.Thread.Sleep(2000);
         }
     }
