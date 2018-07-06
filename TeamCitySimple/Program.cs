@@ -10,7 +10,7 @@ namespace TeamCitySimple
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine(MessageMaker.GetMessage());
             System.Threading.Thread.Sleep(1500);
         }
     }
