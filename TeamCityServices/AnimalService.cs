@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Linq;
 
 using TeamCity.Core;
 
@@ -15,8 +16,14 @@ namespace TeamCityServices
             var animals = new List<IAnimal>();
             animals.Add(new Cat { Name = "Shit Rock" });
             animals.Add(new Dog { Name = "Ellie" });
+            animals.Add(new Dog { Name = "Tyson" });
             animals.Add(new Monkey { Name = "Pistol Pete" });
             return animals;
+        }
+
+        public IEnumerable<IAnimal> GetDogs()
+        {
+            return GetAnimals().Where(x => x.GetType() == typeof(Dog));
         }
     }
 }
