@@ -16,7 +16,7 @@ namespace TeamCityServices.Tests
         {
             var service = new AnimalService();
             var animals = service.GetAnimals();
-            Assert.AreEqual(3, animals.Count(), "GetAnimals() returned and unexpected number of animals");
+            Assert.AreEqual(4, animals.Count(), "GetAnimals() returned and unexpected number of animals");
         }
 
         [TestMethod()]
