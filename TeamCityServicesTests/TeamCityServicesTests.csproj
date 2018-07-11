@@ -55,13 +55,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TeamCity.Core\TeamCity.Core.csproj">
+      <Project>{7dfe83d2-f283-42d2-a3ff-a5b5fe2b2012}</Project>
+      <Name>TeamCity.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TeamCityServices\TeamCityServices.csproj">
       <Project>{A1E0CF48-0362-44DA-A114-A8FE1642E8CE}</Project>
       <Name>TeamCityServices</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\TeamCitySimple\TeamCity.Core\TeamCity.Core.csproj">
-      <Project>{7dfe83d2-f283-42d2-a3ff-a5b5fe2b2012}</Project>
-      <Name>TeamCity.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

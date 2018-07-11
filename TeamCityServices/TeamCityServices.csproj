@@ -40,14 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\TeamCitySimple\TeamCity.Core\_VersionInfo.cs">
-      <Link>_VersionInfo.cs</Link>
-    </Compile>
     <Compile Include="AnimalService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TeamCitySimple\TeamCity.Core\TeamCity.Core.csproj">
+    <ProjectReference Include="..\TeamCity.Core\TeamCity.Core.csproj">
       <Project>{7dfe83d2-f283-42d2-a3ff-a5b5fe2b2012}</Project>
       <Name>TeamCity.Core</Name>
     </ProjectReference>
