@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityServicesTests", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCity.Core", "..\TeamCity.Core\TeamCity.Core.csproj", "{7DFE83D2-F283-42D2-A3FF-A5B5FE2B2012}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityTest.Database", "..\TeamCityTest.Database\TeamCityTest.Database.csproj", "{8F0075B9-0E97-4E26-8459-816D7DB842EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCity.Model", "..\TeamCity.Model\TeamCity.Model.csproj", "{AE95A77A-0BCB-4E69-BA34-1A7D032F5703}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,14 @@ Global
 		{7DFE83D2-F283-42D2-A3FF-A5B5FE2B2012}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DFE83D2-F283-42D2-A3FF-A5B5FE2B2012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DFE83D2-F283-42D2-A3FF-A5B5FE2B2012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0075B9-0E97-4E26-8459-816D7DB842EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0075B9-0E97-4E26-8459-816D7DB842EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0075B9-0E97-4E26-8459-816D7DB842EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0075B9-0E97-4E26-8459-816D7DB842EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE95A77A-0BCB-4E69-BA34-1A7D032F5703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE95A77A-0BCB-4E69-BA34-1A7D032F5703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE95A77A-0BCB-4E69-BA34-1A7D032F5703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE95A77A-0BCB-4E69-BA34-1A7D032F5703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
