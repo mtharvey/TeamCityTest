@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="TeamCitySimple.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="TeamCitySimple.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="TeamCitySimple" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DUdcJ/iox9dGU9Xn9eY7uELgxjIrcnQI3HvyuyfQLl0=</dsig:DigestValue>
+        <dsig:DigestValue>DEDNMb4FHwwJZEnuEQwFbqQ56xygkpy5T3yjx0cwi5Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -61,7 +61,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>04KOzJV1s2T9fovtMBSOSG04aDkL6Is+RQsAbRx0OlE=</dsig:DigestValue>
+        <dsig:DigestValue>mVbcjZSsr15tq1DMxumy6hZ0EaLDmD1rnwglnZJ6Q1o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -73,10 +73,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lK3p9dKQqIJw8AhBJjhgxHMIXygiKNKJyfu3Fr1rvxM=</dsig:DigestValue>
+        <dsig:DigestValue>1dyg/sRuKBwbNue4qC/IgIDAzQIKVRDQZJfBoXoXdpU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="ReleaseNotes.txt" size="39">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n59/uH7pPFUEOqDMgQz3vJol3IykVsBAQ3LJVv5ekcs=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="TeamCitySimple.exe.config" size="186">
     <hash>
       <dsig:Transforms>
