@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Package</id>
+    <version>1.1.0</version>
+    <authors>mharvey</authors>
+    <owners>mharvey</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Sweet Console App</description>
+    <releaseNotes>This includes an awesome console.writeline with a message.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>wicked awesome package harvey tbone stank wanger</tags>
+    <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="TeamCitySimple\bin\Debug\*.dll" target="lib\net452" />
+    <file src="TeamCitySimple\bin\Debug\TeamCitySimple.exe" target="lib\net452" />
+    <file src="TeamCitySimple\bin\Debug\TeamCitySimple.exe.config" target="lib\net452" />
+  </files>
+</package>
