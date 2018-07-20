@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Package</id>
+    <id>TeamCitySimple</id>
     <version>1.1.0</version>
     <authors>mharvey</authors>
     <owners>mharvey</owners>
