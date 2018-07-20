@@ -13,8 +13,8 @@
     <tags>stank shibby wanger wank</tags>
   </metadata>
   <files>
-    <file src="bin\Debug\*.dll" target="lib\net452" />
-    <file src="bin\Debug\TeamCitySimple.exe" target="lib\net452" />
-    <file src="bin\Debug\TeamCitySimple.exe.config" target="lib\net452" />
+    <file src="bin\Release\*.dll" target="lib\net452" />
+    <file src="bin\Release\TeamCitySimple.exe" target="lib\net452" />
+    <file src="bin\Release\TeamCitySimple.exe.config" target="lib\net452" />
   </files>
 </package>
