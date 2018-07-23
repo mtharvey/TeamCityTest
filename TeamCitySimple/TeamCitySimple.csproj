@@ -63,6 +63,10 @@
       <Project>{a1e0cf48-0362-44da-a114-a8fe1642e8ce}</Project>
       <Name>TeamCityServices</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TeamCityTest.Database\TeamCityTest.Database.csproj">
+      <Project>{8f0075b9-0e97-4e26-8459-816d7db842ec}</Project>
+      <Name>TeamCityTest.Database</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="ReleaseNotes.txt">
