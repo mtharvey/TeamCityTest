@@ -13,9 +13,10 @@
     <tags>CI CD harvey apps test</tags>
   </metadata>
   <files>
-    <file src="bin\Release\*.dll" target="lib\net452" />
+    <file src="bin\Release\TeamCity*.dll" target="lib\net452" />
     <file src="bin\Release\TeamCitySimple.exe" target="lib\net452" />
-    <file src="bin\Release\TeamCityTest.Database.exe" target="lib\net452" />
+    <file src="bin\Release\TeamCityTest.Database.exe" target="lib\net452\db" />
+    <file src="bin\Release\dbup*.exe" target="lib\net452\db" />
     <file src="bin\Release\TeamCitySimple.exe.config" target="lib\net452" />
   </files>
 </package>
