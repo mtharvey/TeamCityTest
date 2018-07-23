@@ -7,10 +7,10 @@
     <authors>harvey</authors>
     <owners>harvey</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Wanger</description>
+    <description>A test application for CICD testing.</description>
     <releaseNotes>Just testing.  </releaseNotes>
     <copyright>Copyright 2018</copyright>
-    <tags>stank shibby wanger wank</tags>
+    <tags>CI CD harvey apps test</tags>
   </metadata>
   <files>
     <file src="bin\Release\*.dll" target="lib\net452" />
