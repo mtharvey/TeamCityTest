@@ -16,6 +16,8 @@ namespace TeamCityServices
             animals.Add(new Cat { Name = "Shit Rock" });
             animals.Add(new Dog { Name = "Ellie" });
             animals.Add(new Dog { Name = "Tyson" });
+            animals.Add(new Dog { Name = "Bob" });
+            animals.Add(new Dog { Name = "Jose" });
             animals.Add(new Monkey { Name = "Pistol Pete" });
             return animals;
         }
