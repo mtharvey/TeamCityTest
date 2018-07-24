@@ -18,8 +18,11 @@ namespace TeamCitySimple
             var service = new TeamCityServices.AnimalService();
             service.GetAnimals().ToList().ForEach(animal => { Console.WriteLine($"There is a {animal.AnimalType} named {animal.Name}"); });
 
-            var peopleService = new TeamCityServices.PeopleService();
-            peopleService.GetPeople().ToList().ForEach(p => { Console.WriteLine($"There is a person named {p.FirstName} {p.LastName}"); });
+            //var peopleService = new TeamCityServices.PeopleService();
+            //peopleService.GetPeople().ToList().ForEach(p => { Console.WriteLine($"There is a person named {p.FirstName} {p.LastName}"); });
+
+
+            Console.Write("New version");
 
             Console.Write("Hit any key to exit");
             Console.ReadLine();
