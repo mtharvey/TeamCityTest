@@ -14,6 +14,7 @@ namespace TeamCity.Model
 
         public virtual DbSet<DbInfo> DbInfoes { get; set; }
         public virtual DbSet<MessageLog> MessageLogs { get; set; }
+        public virtual DbSet<Person> People { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -27,6 +28,14 @@ namespace TeamCity.Model
 
             modelBuilder.Entity<MessageLog>()
                 .Property(e => e.Message)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<Person>()
+                .Property(e => e.FirstName)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<Person>()
+                .Property(e => e.LastName)
                 .IsUnicode(false);
         }
     }

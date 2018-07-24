@@ -16,10 +16,13 @@ namespace TeamCitySimple
             Console.WriteLine();
 
             var service = new TeamCityServices.AnimalService();
-            service.GetAnimals().ToList().ForEach(animal => { Console.WriteLine($"There is a {animal.AnimalType} name {animal.Name}"); });
+            service.GetAnimals().ToList().ForEach(animal => { Console.WriteLine($"There is a {animal.AnimalType} named {animal.Name}"); });
 
+            var peopleService = new TeamCityServices.PeopleService();
+            peopleService.GetPeople().ToList().ForEach(p => { Console.WriteLine($"There is a person named {p.FirstName} {p.LastName}"); });
 
-            System.Threading.Thread.Sleep(2000);
+            Console.Write("Hit any key to exit");
+            Console.ReadLine();
         }
     }
 }

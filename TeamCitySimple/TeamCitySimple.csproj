@@ -33,7 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -53,11 +62,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TeamCity.Core\TeamCity.Core.csproj">
       <Project>{7dfe83d2-f283-42d2-a3ff-a5b5fe2b2012}</Project>
       <Name>TeamCity.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TeamCity.Model\TeamCity.Model.csproj">
+      <Project>{ae95a77a-0bcb-4e69-ba34-1a7d032f5703}</Project>
+      <Name>TeamCity.Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\TeamCityServices\TeamCityServices.csproj">
       <Project>{a1e0cf48-0362-44da-a114-a8fe1642e8ce}</Project>
