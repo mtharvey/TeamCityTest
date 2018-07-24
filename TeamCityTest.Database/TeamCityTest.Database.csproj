@@ -73,6 +73,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Scripts\0003\0100 - Create People Table.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\0004\0004 - Create Demo Table.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
